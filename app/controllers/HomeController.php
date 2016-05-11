@@ -17,6 +17,13 @@ class HomeController extends BaseController {
 
 	public function showWelcome()
 	{
+		// return View::make('hello');
+	}
+
+	public function nothingcontroller()
+	{
+		echo Request::getClientIp();
+		die;
 		return View::make('hello');
 	}
 
