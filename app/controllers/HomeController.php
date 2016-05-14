@@ -22,8 +22,8 @@ class HomeController extends BaseController {
 
 	public function nothingcontroller()
 	{
-		echo Request::getClientIp();
-		die;
+		// echo Request::getClientIp();
+
 		return View::make('hello');
 	}
 
